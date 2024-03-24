@@ -77,18 +77,20 @@
             // 
             this.Rezultat.AutoSize = true;
             this.Rezultat.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rezultat.Location = new System.Drawing.Point(12, 20);
+            this.Rezultat.Location = new System.Drawing.Point(16, 25);
+            this.Rezultat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Rezultat.Name = "Rezultat";
-            this.Rezultat.Size = new System.Drawing.Size(101, 16);
+            this.Rezultat.Size = new System.Drawing.Size(124, 20);
             this.Rezultat.TabIndex = 4;
             this.Rezultat.Text = "Rezultat: 0";
             // 
             // DugmePovratak
             // 
             this.DugmePovratak.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DugmePovratak.Location = new System.Drawing.Point(12, 49);
+            this.DugmePovratak.Location = new System.Drawing.Point(16, 60);
+            this.DugmePovratak.Margin = new System.Windows.Forms.Padding(4);
             this.DugmePovratak.Name = "DugmePovratak";
-            this.DugmePovratak.Size = new System.Drawing.Size(101, 23);
+            this.DugmePovratak.Size = new System.Drawing.Size(135, 28);
             this.DugmePovratak.TabIndex = 5;
             this.DugmePovratak.Text = "Povratak";
             this.DugmePovratak.UseVisualStyleBackColor = true;
@@ -110,9 +112,10 @@
             // 
             this.Pravougaonik.BackColor = System.Drawing.Color.LimeGreen;
             this.Pravougaonik.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Pravougaonik.Location = new System.Drawing.Point(213, 20);
+            this.Pravougaonik.Location = new System.Drawing.Point(284, 25);
+            this.Pravougaonik.Margin = new System.Windows.Forms.Padding(4);
             this.Pravougaonik.Name = "Pravougaonik";
-            this.Pravougaonik.Size = new System.Drawing.Size(120, 20);
+            this.Pravougaonik.Size = new System.Drawing.Size(159, 24);
             this.Pravougaonik.TabIndex = 10;
             this.Pravougaonik.Visible = false;
             // 
@@ -127,7 +130,8 @@
             // Nagrada
             // 
             this.Nagrada.Image = global::Macka.Properties.Resources.riba1;
-            this.Nagrada.Location = new System.Drawing.Point(510, 126);
+            this.Nagrada.Location = new System.Drawing.Point(680, 155);
+            this.Nagrada.Margin = new System.Windows.Forms.Padding(4);
             this.Nagrada.Name = "Nagrada";
             this.Nagrada.Size = new System.Drawing.Size(45, 35);
             this.Nagrada.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -138,7 +142,8 @@
             // punoSrce3
             // 
             this.punoSrce3.Image = global::Macka.Properties.Resources.puno;
-            this.punoSrce3.Location = new System.Drawing.Point(503, 12);
+            this.punoSrce3.Location = new System.Drawing.Point(671, 15);
+            this.punoSrce3.Margin = new System.Windows.Forms.Padding(4);
             this.punoSrce3.Name = "punoSrce3";
             this.punoSrce3.Size = new System.Drawing.Size(35, 30);
             this.punoSrce3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -148,7 +153,8 @@
             // punoSrce2
             // 
             this.punoSrce2.Image = global::Macka.Properties.Resources.puno;
-            this.punoSrce2.Location = new System.Drawing.Point(462, 12);
+            this.punoSrce2.Location = new System.Drawing.Point(616, 15);
+            this.punoSrce2.Margin = new System.Windows.Forms.Padding(4);
             this.punoSrce2.Name = "punoSrce2";
             this.punoSrce2.Size = new System.Drawing.Size(35, 30);
             this.punoSrce2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -158,7 +164,8 @@
             // punoSrce1
             // 
             this.punoSrce1.Image = global::Macka.Properties.Resources.puno;
-            this.punoSrce1.Location = new System.Drawing.Point(421, 12);
+            this.punoSrce1.Location = new System.Drawing.Point(561, 15);
+            this.punoSrce1.Margin = new System.Windows.Forms.Padding(4);
             this.punoSrce1.Name = "punoSrce1";
             this.punoSrce1.Size = new System.Drawing.Size(35, 30);
             this.punoSrce1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -168,7 +175,8 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Macka.Properties.Resources.vecioblak;
-            this.pictureBox6.Location = new System.Drawing.Point(445, 58);
+            this.pictureBox6.Location = new System.Drawing.Point(593, 71);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(120, 50);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -178,7 +186,8 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Macka.Properties.Resources.oblak1;
-            this.pictureBox5.Location = new System.Drawing.Point(278, 78);
+            this.pictureBox5.Location = new System.Drawing.Point(371, 96);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(75, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -188,7 +197,8 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Macka.Properties.Resources.oblak1;
-            this.pictureBox2.Location = new System.Drawing.Point(148, 58);
+            this.pictureBox2.Location = new System.Drawing.Point(197, 71);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -199,7 +209,8 @@
             // 
             this.Konzerva.BackColor = System.Drawing.Color.Transparent;
             this.Konzerva.Image = global::Macka.Properties.Resources.konzerva1;
-            this.Konzerva.Location = new System.Drawing.Point(313, 232);
+            this.Konzerva.Location = new System.Drawing.Point(417, 286);
+            this.Konzerva.Margin = new System.Windows.Forms.Padding(4);
             this.Konzerva.Name = "Konzerva";
             this.Konzerva.Size = new System.Drawing.Size(40, 43);
             this.Konzerva.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -211,7 +222,8 @@
             // 
             this.Ograda.BackColor = System.Drawing.Color.Transparent;
             this.Ograda.Image = global::Macka.Properties.Resources.ograda1;
-            this.Ograda.Location = new System.Drawing.Point(480, 215);
+            this.Ograda.Location = new System.Drawing.Point(640, 265);
+            this.Ograda.Margin = new System.Windows.Forms.Padding(4);
             this.Ograda.Name = "Ograda";
             this.Ograda.Size = new System.Drawing.Size(70, 60);
             this.Ograda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -223,9 +235,10 @@
             // 
             this.Macka.BackColor = System.Drawing.Color.Transparent;
             this.Macka.Image = global::Macka.Properties.Resources.trci;
-            this.Macka.Location = new System.Drawing.Point(55, 205);
+            this.Macka.Location = new System.Drawing.Point(73, 252);
+            this.Macka.Margin = new System.Windows.Forms.Padding(4);
             this.Macka.Name = "Macka";
-            this.Macka.Size = new System.Drawing.Size(91, 70);
+            this.Macka.Size = new System.Drawing.Size(121, 86);
             this.Macka.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Macka.TabIndex = 1;
             this.Macka.TabStop = false;
@@ -233,16 +246,18 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Macka.Properties.Resources.r3;
-            this.pictureBox1.Location = new System.Drawing.Point(-6, 238);
+            this.pictureBox1.Location = new System.Drawing.Point(-8, 293);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(759, 194);
+            this.pictureBox1.Size = new System.Drawing.Size(1147, 239);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Macka.Properties.Resources.vecioblak;
-            this.pictureBox7.Location = new System.Drawing.Point(-18, 58);
+            this.pictureBox7.Location = new System.Drawing.Point(-24, 71);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(120, 50);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -252,8 +267,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(550, 313);
+            this.pictureBox3.Size = new System.Drawing.Size(733, 385);
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
             // 
@@ -263,10 +279,10 @@
             // 
             // Igrica
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(550, 334);
+            this.ClientSize = new System.Drawing.Size(731, 385);
             this.Controls.Add(this.Pravougaonik);
             this.Controls.Add(this.Nagrada);
             this.Controls.Add(this.punoSrce3);
@@ -284,7 +300,7 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Igrica";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Igrica";
